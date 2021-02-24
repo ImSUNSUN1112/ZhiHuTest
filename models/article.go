@@ -7,11 +7,11 @@ import (
 )
 
 type art struct {
-	id int
-	tel string
-	title string
-	body string
-	hot int
+	id int `json:"id"`
+	tel string `json:"tel"`
+	title string `json:"title"`
+	body string `json:"body"`
+	hot int `json:"hot"`
 }
 
 //获取指定的一篇文章

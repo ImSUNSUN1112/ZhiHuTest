@@ -5,12 +5,12 @@ import (
 )
 
 type que struct {
-	id int
-	tel string
-	title string
-	body string
-	answer string
-	hot int
+	id int `json:"id"`
+	tel string `json:"tel"`
+	title string `json:"title"`
+	body string `json:"body"`
+	answer string `json:"answer"`
+	hot int `json:"hot"`
 }
 
 //获取一个问题的详情页
